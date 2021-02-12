@@ -1,0 +1,27 @@
+﻿  EntryPoint.cpp
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,14): error C2065: 'File': undeclared identifier
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,7): error C2923: 'std::vector': 'File' is not a valid template type argument for parameter '_Ty'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,14): error C2065: 'FileStruct': undeclared identifier
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,7): error C2923: 'std::vector': 'FileStruct' is not a valid template type argument for parameter '_Ty'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+  Files.cpp
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,14): error C2065: 'File': undeclared identifier
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,7): error C2923: 'std::vector': 'File' is not a valid template type argument for parameter '_Ty'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(11,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,14): error C2065: 'FileStruct': undeclared identifier
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,7): error C2923: 'std::vector': 'FileStruct' is not a valid template type argument for parameter '_Ty'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42,7): error C2976: 'std::vector': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(413): message : see declaration of 'std::vector'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.cpp(23,1): error C2248: 'FileHandler::FileHandler': cannot access private member declared in class 'FileHandler'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(7): message : see declaration of 'FileHandler::FileHandler'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(4): message : see declaration of 'FileHandler'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.cpp(84,1): error C2556: 'std::vector<FileStruct,std::allocator<FileStruct>> File::Walk(std::string)': overloaded function differs only by return type from 'std::vector File::Walk(std::string)'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42): message : see declaration of 'File::Walk'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.cpp(83,31): error C2371: 'File::Walk': redefinition; different basic types
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.h(42): message : see declaration of 'File::Walk'
+C:\Users\hp\Documents\Libraries\C++[Libraries]\HexReaper\Files\v2\Files\Files.cpp(84,1): error C2079: 'File::Walk' uses undefined class 'std::vector'
+  Generating Code...
